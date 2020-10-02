@@ -8,18 +8,13 @@ import datetime
 import os
 
 # XPath selectors
-# NEW_CHAT_BTN = '//div[@class=\'sbcXq\']//div[2]//div[1]//span[1]'
+
+#-------------------- check these xpath selectors or update if need ---------------------------------
 
 NEW_CHAT_BTN = '//*[@id="side"]/header/div[2]/div/span/div[2]/div'
-
-# INPUT_TXT_BOX = '//div[@class=\'_1KDYa _14Mgc copyable-area\']//div//input[@class=\'_2zCfw copyable-text selectable-text\']'
 INPUT_TXT_BOX = '//*[@id="app"]/div/div/div[2]/div[1]/span/div/span/div/div[1]/div/label/div/div[2]'
-
-# ONLINE_STATUS_LABEL = '//span[@class=\'_315-i _F7Vk\']'
 ONLINE_STATUS_LABEL = '//*[@id="main"]/header/div[2]/div[2]/span'
 
-# Replace below with the list of targets to be tracked
-# TARGETS = {'"mini"': '9311313380','"mafia"': '7618167276','"hemant"': '9758113048','"kartik"': '6398462131','"tanu"': '8273024328',}
 TARGETS = {'"raman"': '8171247161'}
 
 # Replace below path with the absolute path
