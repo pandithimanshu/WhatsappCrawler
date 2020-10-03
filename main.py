@@ -7,6 +7,8 @@ import time
 import datetime
 import os
 
+#add database connectivity
+
 # XPath selectors
 
 #-------------------- check these xpath selectors or update if need ---------------------------------
